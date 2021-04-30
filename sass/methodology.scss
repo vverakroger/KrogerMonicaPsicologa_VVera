@@ -1,0 +1,25 @@
+@import "variables";
+
+/*Abordaje*/
+
+#abordaje {
+    background-color: $azulOscuro;
+    color: $crema;
+    height: 100vh;
+    padding-top: 15vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    #abordaje__content{
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        #abordaje__options{
+            padding-top: 15vh;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    }
+}

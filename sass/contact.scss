@@ -1,0 +1,32 @@
+@import "variables";
+
+/*Contacto*/
+
+#contacto {
+    background-color: $crema;
+    color: $crema;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    #contacto__content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 15vh;
+        background-color: $azulOscuro;
+        width: 50%;
+        height: 100vh;
+        text-align: center;
+        h4{
+            font-family: $fontImprenta;
+            font-size: 1.8vw;
+        }
+        h4{
+            font-family: $fontImprenta;
+            font-size: 1.4vw;
+        }
+    }
+}

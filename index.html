@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+
+<head>
+    <title>Web Development Company</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="Styles/index.css">
+</head>
+
+<body>
+    <div class="fixed-top">
+        <nav id="nav1" class="navbar">
+            <div id="nav1__Logo">
+                <img src="styles/multimedia/logo.png">
+            </div>
+            <div class="nav1__Info">
+                <img  src="styles/multimedia/phone.png">
+                <h4>(+598) 99 393 756</h4>
+            </div>
+            <div class="nav1__Info">
+                <img src="styles/multimedia/location.png">
+                <h4>La Blanqueada, Mdeo, Uruguay</h4>
+            </div>
+            <div class="nav1__Info">
+                <img src="styles/multimedia/mail.png">
+                <h4>krogermonica@gmail.com</h4>
+            </div>
+            <div id="nav1__Btn">
+                <a href="#contacto"><button id="nav1__Btn2">Agenda una cita</button></a>
+            </div>
+        </nav>
+        <nav id="nav2" class="navbar d-flex justify-content-end">
+            <div id="nav2__content">
+                <a href="#inicio">Inicio</a>
+                <a href="#sobreMi">Sobre Mí</a>
+                <a href="#abordaje">Abordaje</a>
+            </div>
+        </nav>
+    </div>
+    <section id="inicio" >
+        <div id="inicio__content">
+            <h1>Mónica Kröger</h1>
+            <h3>Licenciada en Psicología</h3>
+        </div>
+    </section>
+
+    <section id="sobreMi">
+        <div id="sobreMi__content">
+            <div class="row ">
+                <div class="col-1"></div>
+                <div id="sobreMi__content__text"  class="col-4">
+                    <h2>Sobre Mí</h2>
+                    <h3>texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto
+                    </h3>
+                </div>
+                <div class="col-1"></div>
+                <div id="sobreMi__content__img1" class="col-2">
+                    <img src="styles/multimedia/sobreMi1.jpg " class="mx-auto d-block rounded ">
+                </div>
+                <div class="col-1"></div>
+                <div id="sobreMi__content__img2" class="col-2">
+                    <img src="styles/multimedia/sobreMi2.jpg " class="mx-auto d-block rounded ">
+                </div>
+                <div class="col-1"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="abordaje">
+        <div id="abordaje__content">
+            <h2>Abordaje</h2>
+            <div id="abordaje__options" class="row ">
+                <div class="col-2 ">
+                    <img src="styles/multimedia/adolescentes.jpg " class="img-thumbnail rounded">
+                    <h3>Adolescentes</h3>
+                </div>
+                <div class="col-2 ">
+                    <img src="styles/multimedia/adultos.jpg " class="img-thumbnail rounded">
+                    <h3>Adultos</h3>
+                </div>
+                <div class="col-2 ">
+                    <img src="styles/multimedia/parejas.jpg " class="img-thumbnail rounded">
+                    <h3>Parejas</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <div id="contacto__content">
+            <h2>Contacto</h2>
+            <h3>ZONA</h3>
+            <h4>La Blanqueada, Montevideo, Uruguay</h3>
+            <h3>EMAIL</h3>
+            <h4>krogermonica@gmail.com</h3>
+            <h3>CELULAR</h3>
+            <h4>(+598) 99 393 756</h3>
+        </div>
+    </section>
+
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("nav1").style.top = "0";
+            document.getElementById("nav2").style.top = "0";
+          } else {
+            document.getElementById("nav1").style.top = "-10vh";
+            document.getElementById("nav2").style.top = "-10vh";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+    </script>
+
+</body>
+
+</html>
