@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Web Development Company</title>
+    <title>Ramonish Spanish Classes</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -19,106 +19,49 @@
             <div id="nav1__Logo">
                 <img src="css/multimedia/logo.png">
             </div>
-            <div class="nav1__Info">
-                <img  src="css/multimedia/phone.png">
-                <h4>(+598) 99 393 756</h4>
-            </div>
-            <div class="nav1__Info">
-                <img src="css/multimedia/location.png">
-                <h4>La Blanqueada, Mdeo, Uruguay</h4>
-            </div>
-            <div class="nav1__Info">
-                <img src="css/multimedia/mail.png">
-                <h4>krogermonica@gmail.com</h4>
-            </div>
-            <div id="nav1__Btn">
-                <a href="#contacto"><button id="nav1__Btn2">Agenda una cita</button></a>
+            <div id="nav1__Login">
+                <a href="alumns.html"><img src="css/multimedia/login.png"></a>
             </div>
         </nav>
-        <nav id="nav2" class="navbar d-flex justify-content-end">
+        <nav id="nav2" class="navbar">
             <div id="nav2__content">
-                <a href="#inicio">Inicio</a>
-                <a href="#sobreMi">Sobre Mí</a>
-                <a href="#abordaje">Abordaje</a>
+                <a href="#home">Home</a>
+                <a href="#sobreMi">About Me</a>
+                <a href="#contacto">Contact</a>
             </div>
         </nav>
     </div>
-    <section id="inicio" >
-        <div id="inicio__content">
-            <h1>Mónica Kröger</h1>
-            <h3>Licenciada en Psicología</h3>
+    <section id="home" >
+        <div id="home__content">
+            <h1>Ramonish</h1>
+            <h3>Personalized Online Spanish Classes</h3>
         </div>
     </section>
 
     <section id="sobreMi">
         <div id="sobreMi__content">
-            <div class="row ">
-                <div class="col-1"></div>
-                <div id="sobreMi__content__text"  class="col-4">
-                    <h2>Sobre Mí</h2>
-                    <h3>texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto
-                    </h3>
-                </div>
-                <div class="col-1"></div>
-                <div id="sobreMi__content__img1" class="col-2">
-                    <img src="css/multimedia/sobreMi1.jpg " class="mx-auto d-block rounded ">
-                </div>
-                <div class="col-1"></div>
-                <div id="sobreMi__content__img2" class="col-2">
-                    <img src="css/multimedia/sobreMi2.jpg " class="mx-auto d-block rounded ">
-                </div>
-                <div class="col-1"></div>
-            </div>
-        </div>
-    </section>
-
-    <section id="abordaje">
-        <div id="abordaje__content">
-            <h2>Abordaje</h2>
-            <div id="abordaje__options" class="row ">
-                <div class="col-2 ">
-                    <img src="css/multimedia/adolescentes.jpg " class="img-thumbnail rounded">
-                    <h3>Adolescentes</h3>
-                </div>
-                <div class="col-2 ">
-                    <img src="css/multimedia/adultos.jpg " class="img-thumbnail rounded">
-                    <h3>Adultos</h3>
-                </div>
-                <div class="col-2 ">
-                    <img src="css/multimedia/parejas.jpg " class="img-thumbnail rounded">
-                    <h3>Parejas</h3>
-                </div>
-            </div>
+            <h2>Sobre Mí</h2>
+            <h3>texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto texto
+            </h3>
         </div>
     </section>
 
     <section id="contacto">
         <div id="contacto__content">
-            <h2>Contacto</h2>
+            <h2>Contact</h2>
             <div id="contacto__sub__content">
-                <h3>ZONA</h3>
-                <h4>La Blanqueada, Montevideo, Uruguay</h3>
-                <h3>EMAIL</h3>
-                <h4>krogermonica@gmail.com</h3>
-                <h3>CELULAR</h3>
-                <h4>(+598) 99 393 756</h3>
+                <h3>ADDRESS</h3>
+                <h4>Montevideo, Uruguay</h3>
+                <h3>EMAIL ADDRESS</h3>
+                <h4>xxxxxxxx@gmail.com</h3>
+                <h3>PHONE NUMBER</h3>
+                <h4>(+598) XX XXX XXX</h3>
             </div>
         </div>
     </section>
 
-    <script>
-        var prevScrollpos = window.pageYOffset;
-        window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
-          if (prevScrollpos > currentScrollPos) {
-            document.getElementById("nav1").style.top = "0";
-            document.getElementById("nav2").style.top = "0";
-          } else {
-            document.getElementById("nav1").style.top = "-10vh";
-            document.getElementById("nav2").style.top = "-10vh";
-          }
-          prevScrollpos = currentScrollPos;
-        }
+    <script src="js/onScrollNav.js";>
+        //Esconder NavBar superior al scrollear
     </script>
 
 </body>

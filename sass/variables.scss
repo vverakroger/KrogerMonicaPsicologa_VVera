@@ -1,7 +1,25 @@
-$azulOscuro: #2D9DA5;
-$azulClaro: #42BBC4;
-$crema: #E6E5E5;
+$primario: #779ECB;
+$secundario: #E0BFAF;
+$terciario: #737373;
 $negro: black;
 $blanco: white;
-$fontCursiva: 'Brush Script MT', sans-serif;
-$fontImprenta: 'Lucida Bright', sans-serif;
+@font-face {
+  font-family: 'Bungee';
+  src: url('fonts/Bungee-Regular.woff') format('woff'),
+      url('fonts/Bungee-Regular.svg#Bungee-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'WC Mano Negra Bta';
+  src: url('WCManoNegraBta.woff') format('woff'),
+      url('WCManoNegraBta.svg#WCManoNegraBta') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+$fontCursiva: 'WC Mano Negra Bta';
+$fontImprenta: 'Bungee';

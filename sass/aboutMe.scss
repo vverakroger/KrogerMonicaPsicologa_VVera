@@ -3,44 +3,14 @@
 /*Sobre Mi*/
 
 #sobreMi {
-    background-color: $crema;
-    color: $azulOscuro;
+    background-color: $primario;
+    color: $blanco;
     width: 100%;
     height: 100vh;
     padding-top: 15vh;
     #sobreMi__content {
-        col-1{
-            padding: 0;
-        }
-        width: 100%;
-        height: 85vh;
-        #sobreMi__content__text{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }
-        #sobreMi__content__img1{
-            height: 85vh;
-            display: flex;
-            justify-content: center;
-            align-items:flex-start;
-            img{
-                width: 100%;
-                height: 75vh;
-            }
-        }
-        #sobreMi__content__img2{
-            height: 85vh;
-            display: flex;
-            justify-content: center;
-            align-items: flex-end;
-            img{
-                width: 100%;
-                height: 75vh;
-            }
-        }
+        
     }
 }
+
 
